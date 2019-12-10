@@ -5,7 +5,7 @@ import re
 
 # ? is preceded by an expression which is optional
 regEx = re.compile(r'[b/B]at(wo)?man')
-
+t
 s = str(input("Batman/woman: "))
 mo = regEx.search(s)
 print("Phone number: " + str(mo.group()))
